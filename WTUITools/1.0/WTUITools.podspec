@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/waitingyip384031523/WTUITools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'waitingyip384031523@gmail.com' => 'waiting' }
+  s.author           = { 'waitingyip384031523@gmail.com' => 'waitingyip384031523@gmail.com' }
   s.source           = { :git => 'https://github.com/waitingyip384031523/WTUITools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'WTUITools/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WTUITools' => ['WTUITools/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'WTUITools' => ['WTUITools/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
