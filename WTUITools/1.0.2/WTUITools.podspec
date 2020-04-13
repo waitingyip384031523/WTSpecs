@@ -35,6 +35,15 @@ TODO: Add long description of the pod here.
   s.resource_bundles = {
     'WTUITools' => ['WTUITools/Assets/*.png']
   }
+  
+  s.subspec 'UIImage' do |img|
+      img.source_files = 'WTUITools/Classes/UIImage/*.{h,m}'
+      img.dependency 'WTUITools/UIColor'
+  end
+  
+  s.subspec 'UIColor' do |color|
+      color.source_files = 'WTUITools/Classes/UIColor/*.{h,m}'
+  end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
